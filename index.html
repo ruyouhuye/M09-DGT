@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank page Bootstrap 5</title>
+        <title>DGT</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/logo_dgt.svg" alt="Bootstrap" width="100" height="50">
+                    <img src="./img/logo_dgt.svg" alt="Bootstrap" width="100" height="50">
                   </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -67,7 +67,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/img/carousel-img/control_furgonetas_carrusel_home.jpg" class="d-block w-100" alt="...">
+                <img src="./img/carousel-img/control_furgonetas_carrusel_home.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-sm-block bg-secondary bg-opacity-50">
                     <h2>Campaña especial de vigilancia</h2>
                     <p class="fs-4">Tráfico incrementa esta semana el control de furgonetas</p>
@@ -83,7 +83,7 @@
                 </div>
             </div>
               <div class="carousel-item">
-                <img src="/img/carousel-img/DGT_Intermitentes_home.png" class="d-block w-100" alt="...">
+                <img src="./img/carousel-img/DGT_Intermitentes_home.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-sm-block bg-secondary bg-opacity-50">
                     <h2>Mil maneras</h2>
                     <p class="fs-4">Recurrimos a la inteligencia artificial para decirte de mil maneras que utilices los intermitentes</p>
@@ -91,7 +91,7 @@
                 </div>
             </div>
               <div class="carousel-item">
-                <img src="/img/carousel-img/notaPrensa.jpg" class="d-block w-100" alt="...">
+                <img src="./img/carousel-img/notaPrensa.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-sm-block bg-secondary bg-opacity-50">
                     <h2>Dispositivo especial de tráfico</h2>
                     <p class="fs-4">13,5 millones de desplazamientos previstos para esta semana de puente</p>
@@ -108,16 +108,18 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container bg-light">
+        <!--SECTION 1-->
+        <section class="bg-light">
+          <div class="container">
             <br>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <a href="">
-                        <img src="/img/icono_sede.svg" alt="">
+                        <img class="mt-2 rounded mx-auto d-block" src="./img/icono_sede.svg" alt="">
                     </a>
                 </div>
-                <br>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
+                    <br>
                     <h3>GESTIONA TUS TRÁMITES EN LA SEDE ELECTRÓNICA</h3>
                     <p class="fs-5">¿Quieres pedir una cita previa para hacer tus trámites? ¿Necesitas pagar una multa? o ¿Quieres pagar tus tasas de tráfico?</p>
                     <p class="fs-5">Accede a la sede Electrónica y realiza los trámites de forma sencilla, desde el salón de tu casa.</p>
@@ -127,14 +129,17 @@
                     <button class="btn btn-primary" type="button">Accede a la Sede Electrónica</button>  
                   </div>
             </div>
-        </div>
-        <div class="container">
+          </div>
+        </section>
+        <!--SECTION 2-->
+        <section>
+          <div class="container">
             <br>
             <div class="row">
                 <h3 class="text-start text-primary">Noticias</h3>
                 <div class="col-6 col-md-3">
                     <div class="card " style="width: auto; height: 18rem;">
-                        <img src="/img/noticias-img/EQUIPAMIENTO-CICLISTASlist.jpg" class="card-img-top" alt="...">
+                        <img src="./img/noticias-img/EQUIPAMIENTO-CICLISTASlist.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Ciclista, consejos para equiparte a ti y a tu bicicleta</p>
                         </div>
@@ -145,7 +150,7 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="card" style="width: auto; height: 18rem;">
-                        <img src="/img/noticias-img/radar-de-tramolis.jpg" class="card-img-top" alt="...">
+                        <img src="./img/noticias-img/radar-de-tramolis.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Qué es un radar de tramo</p>
                         </div>
@@ -156,7 +161,7 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="card" style="width: auto; height: 18rem;">
-                        <img src="/img/noticias-img/GLORIETAS-3-HORIZONTALlist.jpg" class="card-img-top" alt="...">
+                        <img src="./img/noticias-img/GLORIETAS-3-HORIZONTALlist.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Glorietas: Las imprudencias más peligrosas</p>
                         </div>
@@ -167,7 +172,7 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="card" style="width: auto; height: 18rem;">
-                        <img src="/img/noticias-img/LLuvia-listado.jpg" class="card-img-top" alt="...">
+                        <img src="./img/noticias-img/LLuvia-listado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Cómo conducir "sin meterse en charcos"   </p>
                         </div>
@@ -177,8 +182,11 @@
                       </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+          </div>
+        </section>
+        <!--SECTION 3-->
+        <section>
+          <div class="container">
             <br>
             <div class="row">
                 <h3 class="text-primary">El tráfico en cifras 2022</h3>
@@ -202,180 +210,137 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="container">
+          </div>
+        </section>
+        <!--SECTION 4-->
+        <section>
+          <div class="container">
             <br>
             <div class="row">
                 <h3 class="text-primary">Información de tráfico</h3>
                 <div class="col-6 col-md-3">
-                    <div class="card" style="width: auto; height: 26rem;">
-                        <img src="/img/info-trafico-img/controlTrafico.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                    <div class="card h-100" style="width: auto; height: auto;">
+                        <img src="./img/info-trafico-img/controlTrafico.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
                           <p class="fw-bolder">Consulta el estado del tráfico</p>
-                          <p class="card-text">Información del estado actual del   
+                          <p class="card-text d-none d-md-block">Información del estado actual del   
                             tráfico así como las últimas incidencias de ci...
                           </p>
                         </div>
                       </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="card" style="width: auto; height: 26rem;">
-                        <img src="/img/info-trafico-img/recomendaciones.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                    <div class="card h-100" style="width: auto; height: auto;">
+                        <img src="./img/info-trafico-img/recomendaciones.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
                           <p class="fw-bolder">Recomendaciones de tráfico</p>
-                          <p class="card-text">Recomendaciones para los próximos días,
+                          <p class="card-text d-none d-md-block">Recomendaciones para los próximos días,
                              consejos estacionales, puntos conflictivos…
                           </p>
                         </div>
                       </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="card" style="width: auto; height: 26rem;">
-                        <img src="/img/info-trafico-img/recomendacionesV3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                    <div class="card h-100" style="width: auto; height: auto;">
+                        <img src="./img/info-trafico-img/recomendacionesV3.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
                           <p class="fw-bolder">Restricciones a la circulación</p>
-                          <p class="card-text">Consulta las restricciones 
+                          <p class="card-text d-none d-md-block">Consulta las restricciones 
                             temporales a la circulación de determinados vehículos...
                           </p>
                         </div>
                       </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="card" style="width: auto; height: 26rem;">
-                        <img src="/img/info-trafico-img/recomendaciones_V2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                    <div class="card h-100" style="width: auto; height: auto;">
+                        <img src="./img/info-trafico-img/recomendaciones_V2.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
                           <p class="fw-bolder">Campañas de vigilancia</p>
-                          <p class="card-text">Información sobre campañas de concienciación, 
+                          <p class="card-text d-none d-md-block">Información sobre campañas de concienciación, 
                             vigilancia y control realizadas a...</p>
                         </div>
                       </div>
                 </div>
             </div>
-        </div>
-        <div>
-          br
+          </div>
+        </section>
+        
+          <br>
           <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+        <br>
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">A un clic</h6>
+                  <p>
+                    <a href="#!" class="text-reset">Ministerio del Interior</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Datos abiertos del Gobierno de España</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Punto de acceso a las Adminstraciones Públicas</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Cl@ve</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Portal de la Transparencia</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Sobre la dgt</h6>
+                  <p>
+                    <a href="#!" class="text-reset">Sede Electrónica de la DGT <i class="bi bi-box-arrow-up-right"></i></a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Revista Tráfico y Seguridad Vial <i class="bi bi-box-arrow-up-right"></i></a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Consejo Supeior de Tráfico, Seguridad vial y Movilidad Sostenible <i class="bi bi-box-arrow-up-right"></i></a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Facturación estadístico de la DGT</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Seguridad Vial 2030</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
 
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                  <p><i class="bi bi-telephone"> </i> 06  → Télefono de atención al ciudadano</p>
+                  <p><i class="bi bi-telephone"> </i> 011  → Télefono de información de carreteras</p>
+                  <p><i class="bi bi-telephone"> </i> 987 010 559  → Centro de tratamiento de denuncias automatizadas</p>
+                </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-        </div>
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Anthony&&Ruyou.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
     </body>
 </html>
